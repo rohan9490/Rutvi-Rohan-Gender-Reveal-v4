@@ -57,11 +57,10 @@ async function callFunction(name, payload = {}) {
   const base = cfg.supabaseUrl.replace(/\/$/, "");
   const response = await fetch(`${base}/functions/v1/${name}`, {
     method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-      "apikey": cfg.supabaseAnonKey,
-      "Authorization": `Bearer ${cfg.supabaseAnonKey}`
-    },
+   headers: {
+  "Content-Type": "application/json",
+  "apikey": cfg.supabaseAnonKey
+},
     body: JSON.stringify(payload)
   });
   let data = {};

@@ -5,6 +5,6 @@ window.EVENT_CONFIG = {
   displayNames: "Rutvi & Rohan",
   revealAt: "2026-11-15T10:00:00-07:00",
   timeZone: "America/Edmonton",
-  supabaseUrl: "https://nptdtkszigipidkwaqvd.supabase.co/rest/v1/",
+  supabaseUrl: "https://nptdtkszigipidkwaqvd.supabase.co",
   supabaseAnonKey: "sb_publishable_yWijFQndhOZn2ML2IWYaoQ_vqkZEADg"
 };
